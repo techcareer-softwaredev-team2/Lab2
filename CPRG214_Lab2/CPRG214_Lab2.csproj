@@ -73,7 +73,7 @@
     <Content Include="content\bootstrap.min.css" />
     <Content Include="content\site.css" />
     <Content Include="home.aspx" />
-    <Content Include="images\inlandMarinaLtd.png" />
+    <Content Include="images\inlandMarinaLtd2.png.jpg" />
     <Content Include="leaseSlip.aspx" />
     <Content Include="registration.aspx" />
     <Content Include="Web.config" />

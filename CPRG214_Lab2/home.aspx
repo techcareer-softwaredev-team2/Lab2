@@ -33,7 +33,7 @@
     <form id="form1" runat="server">
     <div>
         <p>
-            <img alt="InlandMarindaLtd" class="auto-style1" longdesc="Inland Marina Ltd Banner" src="images/inlandMarinaLtd.png" /></p>
+            <img alt="inlandmarinaltd" class="auto-style1" longdesc="Inland Marina LTD banner" src="images/inlandMarinaLtd2.png.jpg" /></p>
         <asp:Menu ID="Menu1" runat="server">
             <DynamicItemTemplate>
                 <%# Eval("Text") %>
@@ -47,12 +47,18 @@
             </Items>
         </asp:Menu>
         <br />
-        <p>
-            <span lang="EN-CA">Inland Marina Ltd, a company operating a marina facility at <st1:place w:st="on"><st1:placename w:st="on">Inland</st1:PlaceName>
- <st1:placetype w:st="on">Lake</st1:PlaceType></st1:place> has asked you to build an application that will handle their leasing services.<span style="mso-spacerun:yes">&nbsp; </span>Inland Lake, one of the largest lakes in the southern US offers a year-round boating paradise.<span style="mso-spacerun:yes">&nbsp;&nbsp; </span>The company is the largest marina on Inland Lake and has the capacity to house 90 boats on three docks.<span style="mso-spacerun:yes">&nbsp; </span>They also are concluding negotiations to purchase a large marina facility in <st1:city w:st="on"><st1:place w:st="on">San Diego</st1:place></st1:City>.<span style="mso-spacerun:yes">&nbsp; </span>With recent increases in tourism, the current practice of taking telephone bookings from customers is becoming too much to handle.<span style="mso-spacerun:yes">&nbsp; </span>Automating the process of leasing a slip, a “parking spot” for a boat, will enable the office staff to concentrate on other duties.<o:p></o:p></span></p>
+        <p class="MsoNormal">
+            <span lang="EN-CA">Welcome to Inland Marina located on the south shore Inland Lake, just a small commute from major centers in the south west.<o:p></o:p></span></p>
+        <p class="MsoNormal">
+            <span lang="EN-CA">Inland <st1:city w:st="on">Marina</st1:City>
+            was established in the 1967 shortly after <st1:place w:st="on"><st1:placename
+ w:st="on">Inland</st1:PlaceName> <st1:placetype w:st="on">Lake</st1:PlaceType></st1:place>
+            was created as a result of the South West damn.<span>&nbsp; </span>From its humble beginnings, it has grown to be the largest marina on <st1:place
+w:st="on"><st1:placename w:st="on">Inland</st1:PlaceName> <st1:placetype w:st="on">Lake</st1:PlaceType></st1:place>.<span>&nbsp; </span>Due to the warm climate that extends year-round, Inland Lake has become a popular tourist destination in the south west.<span>&nbsp; </span>Boat owners from <st1:state w:st="on">California</st1:State>,
+<st1:state w:st="on">Arizona</st1:State>, <st1:state w:st="on">Nevada</st1:State>, and <st1:place w:st="on"><st1:state w:st="on">Utah</st1:State></st1:place> are attracted to the area.<span>&nbsp; </span>Inland Marina has 90 slips ranging in size from 16 to 32 feet in length.<span>&nbsp; </span>Dock services include electrical and fresh water.<o:p></o:p></span></p>
         <p>
             <span lang="EN-CA">
-            <o:p>In discussions with management it has been determined that the best solution would be to develop a web-enabled application that allows customers the ability to search for available slips on their docks at Inland Lake and at San Diego.<span style="mso-spacerun:yes">&nbsp;&nbsp; </span>Once a customer is registered in the system, they will be allowed to lease a slip located on one of their docks.<span style="mso-spacerun:yes">&nbsp; </span><o:p></o:p></o:p>
+            <o:p><span style="mso-spacerun:yes">&nbsp; </span><o:p></o:p></o:p>
             </span></p>
         <p>
             <o:p></o:p></p>
