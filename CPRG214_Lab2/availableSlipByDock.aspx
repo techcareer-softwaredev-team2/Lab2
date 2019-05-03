@@ -27,11 +27,12 @@ table{background-color:transparent}table{border-spacing:0;border-collapse:collap
             Available Slip by Dock:
             <asp:DropDownList ID="ddlSlipDock" runat="server" DataSourceID="SqlDataSource1" DataTextField="ID" DataValueField="ID">
             </asp:DropDownList>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConflictDetection="CompareAllValues" ConnectionString="<%$ ConnectionStrings:MarinaConnectionString %>" SelectCommand="SELECT [DockID] FROM [Slip] WHERE ([DockID] = @DockID)">
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MarinaConnectionString2 %>" SelectCommand="SELECT [ID], [Width], [Length] FROM [Slip] WHERE ([DockID] = @DockID)">
                 <SelectParameters>
-                    <asp:ControlParameter ControlID="ddlSlipDock" Name="DockID" PropertyName="SelectedValue" Type="Int32" />
+                    <asp:ControlParameter ControlID="ddlSlipDock" DefaultValue="1" Name="DockID" PropertyName="SelectedValue" Type="Int32" />
                 </SelectParameters>
             </asp:SqlDataSource>
+            <br />
             <br />
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="ID" DataSourceID="SqlDataSource2">
                 <Columns>
@@ -40,11 +41,6 @@ table{background-color:transparent}table{border-spacing:0;border-collapse:collap
                     <asp:BoundField DataField="Length" HeaderText="Length" SortExpression="Length" />
                 </Columns>
             </asp:GridView>
-            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:MarinaConnectionString %>" SelectCommand="SELECT [ID], [Width], [Length] FROM [Slip] WHERE ([DockID] = @DockID)">
-                <SelectParameters>
-                    <asp:ControlParameter ControlID="ddlSlipDock" Name="DockID" PropertyName="SelectedValue" Type="Int32" />
-                </SelectParameters>
-            </asp:SqlDataSource>
             <br />
         </div>
     </form>
